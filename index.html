@@ -7,11 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Al Siblini</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
     <link rel="icon" type="image/png" href="images/Logo2.png">
 </head>
 
-<body>
+<body class="loading" id="remove">
+
+    <!-- Tester
+    <div class="content">
+        <img src="https://picsum.photos/300/300/?random" />
+    </div> -->
+
+    <!-- Preloader -->
+
+    <div class="loader">
+        <div class="container__preloader">
+            <img src="images/Preloader.gif" alt="">
+            <h1>Loading...</h1>
+        </div>
+    </div>
+    <script src="Loader.js" charset="utf-8"></script>
+
+    <!-- About Me -->
+    
     <section id="about-me">
         <nav>
             <div class="personal_logo">Mohammad Al Siblini</div>
@@ -60,20 +77,16 @@
                     <div class="about-me_links">
                         <a href="https://www.linkedin.com/in/mohammad-al-siblini-9a1096233" title="Linkedin" target="_blank"
                             class="about-me_link opacity">
-                            <!--<i class="fab fa-linkedin-in"></i>-->
                             <img src="images/linkedin.svg" alt="linkedin">
                         </a>
                         <a href="https://github.com/MhmdLSiblini" target="_blank" title="Github" class="about-me_link opacity">
-                            <!--<i class="fab fa-github"></i>-->
                             <img src="images/github.svg" alt="github">
                         </a>
                         <a href="mailto:mohammadsiblini246@gmail.com"
                             target="_blank" title="Gmail" class="about-me_link opacity">
-                            <!--<i class="far fa-envelope"></i>-->
                             <img src="images/mail.svg" alt="gmail">
                         </a>
                         <a href="" target="_blank" title="Resume - Coming Soon" class="about-me_link opacity">
-                            <!--<i class="fa fa-file-pdf"></i>-->
                             <img src="images/file-text.svg" alt="resume">
                         </a>
                     </div>
@@ -84,6 +97,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Languages -->
 
     <section id="languages">
         <div class="container">
@@ -120,6 +135,8 @@
         </div>
     </section>
 
+    <!-- Projects -->
+
     <section id="projects">
         <div class="container">
             <div class="row">
@@ -138,12 +155,12 @@
                                     <span class="text--red">!WORK IN PROGRESS!</span>
                                 </p>
                                 <div class="project__description--links">
-                                    <a href="https://github.com/MhmdLSiblini/university-site.git" target="_blank" title="Github Code" class="project__description--link opacity">
-                                        <img src="images/github-white.svg" alt="">
-                                    </a>
-
                                     <a href="https://mhmdlsiblini.github.io/university-site/" target="_blank" title="Link to Website" class="project__description--link opacity">
                                         <img src="images/link-white.svg" alt="">
+                                    </a>
+
+                                    <a href="https://github.com/MhmdLSiblini/university-site.git" target="_blank" title="Github Code" class="project__description--link opacity">
+                                        <img src="images/github-white.svg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -153,6 +170,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
 
     <footer>
         <div class="row footer__row">

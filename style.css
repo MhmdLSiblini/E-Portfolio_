@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Corben:700');
 
+/* Preloader Code */
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:1000;
+}
+
+.loading{
+    overflow: hidden;
+    height: 100vh;
+}
+
 /*General code*/
 
 *{
@@ -199,6 +219,9 @@ nav{
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
+}
+
+.animate__profile{
     animation: animate-profile-picture 800ms 200ms backwards;
 }
 
@@ -222,6 +245,9 @@ nav{
 
 .about-me__info-title{
     margin-bottom: 16px;
+}
+
+.fade_up-title{
     animation: fade-up 650ms 400ms backwards;
 }
 
@@ -229,6 +255,9 @@ nav{
     font-size: 20px;
     margin-bottom: 28px;
     text-align: center;
+}
+
+.fade_up--para{
     animation: fade-up 650ms 600ms backwards;
 }
 
@@ -250,6 +279,9 @@ nav{
 
 .about-me_links{
     margin-bottom: 30px;
+}
+
+.fade_up_links{
     animation: fade-up 650ms 800ms backwards;
 }
 
@@ -262,6 +294,9 @@ nav{
 .about-me__img{
     width: 80%;
     margin: 0 auto;
+}
+
+.fade_in__img{
     animation: fade-in 1200ms 800ms backwards;
 }
 
