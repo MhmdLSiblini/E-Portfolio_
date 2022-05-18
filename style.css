@@ -16,6 +16,10 @@
     z-index:1000;
 }
 
+.Load{
+    width: 200px;
+}
+
 .loading{
     overflow: hidden;
     height: 100vh;
@@ -513,6 +517,10 @@ footer{
 /* small phones, tablets, and large smartphones */
 
 @media (max-width: 768px) {
+
+    .Load{
+        width: 150px;
+    }
 
     nav{
         height: 68px;
