@@ -364,7 +364,7 @@ nav{
 /*Projects*/
 
 .project{
-    margin-bottom: 135px;
+    margin-bottom: 75px;
 }
 
 .project:last-child{
@@ -411,7 +411,7 @@ nav{
 }
 
 .project__description{
-     position: absolute;
+    position: absolute;
     top: 50%;
     left: 90px;
     transform: translateY(-50%);
